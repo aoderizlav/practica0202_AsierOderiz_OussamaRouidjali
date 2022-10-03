@@ -1,0 +1,7 @@
+print("Cual es su peso?")
+peso = float(input())
+print("Cual es su estatura?")
+estatura = float(input())
+imc = (peso / estatura)
+imcround = round(imc, 2)
+print(imcround)

@@ -1,0 +1,6 @@
+print("Cuantas horas ha trabajado?")
+horas = float(input())
+print("Cual es el coste por hora?")
+coste = float(input())
+print("Va ha cobrar")
+print(horas * coste)
